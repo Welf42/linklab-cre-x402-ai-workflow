@@ -4,14 +4,15 @@
 
 ### System and tooling
 
-- [ ] Install Node.js v18+ (or confirm `node -v` is ≥ 18).  
+- [X] Install Node.js v18+ (or confirm `node -v` is ≥ 18).  
 - [ ] Optionally install Bun v1.3+ (`bun -v`) if you want to use Bun.  
-- [ ] Install `git` and ensure GitHub account is ready.  
+- [X] Install `git` and ensure GitHub account is ready.  
 
 ### Chainlink Runtime Environment (CRE)
 
-- [ ] Follow the official instructions to install **CRE** on your machine.  
-- [ ] Verify CRE CLI or runtime runs correctly (e.g. `cre --help` or equivalent).  
+- [ ] Follow the official instructions to install **CRE** on your machine. (https://docs.chain.link/cre/getting-started/cli-installation/macos-linux) --> curl -sSL https://cre.chain.link/install.sh | bash
+- [ ] Verify CRE CLI or runtime runs correctly (e.g. `cre --help` or equivalent).   
+)
 - [ ] Create or configure a CRE project/agent workspace directory.  
 
 ### Base Sepolia network
@@ -24,11 +25,11 @@
 
 ### API keys and services
 
-- [ ] Create or log into your **Gemini** account.  
-- [ ] Generate a **Gemini LLM API key** and store it securely.  
-- [ ] Create a **Pushover** account.  
-- [ ] Create a new Pushover **Application** and note the **Application Key**.  
-- [ ] Note your **Pushover User Key** from the dashboard.  
+- [X] Create or log into your **Gemini** account. (https://aistudio.google.com/api-keys)
+- [X] Generate a **Gemini LLM API key** and store it securely.  
+- [X] Create a **Pushover** account.   (https://pushover.net/signup)
+- [X] Create a new Pushover **Application** and note the **Application Key**.  
+- [X] Note your **Pushover User Key** from the dashboard.  
 - [ ] Install the **Pushover mobile app** (optional but recommended to see live notifications).  
 
 ### Optional docs tooling

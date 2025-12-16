@@ -1,0 +1,13 @@
+{
+  "name": "linklab-cre-x402-ai-workflow",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.2"
+  }
+}
